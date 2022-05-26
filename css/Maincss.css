@@ -12,6 +12,11 @@ body {
     max-width: 100%;
 }
 
+button,
+input[type="submit"] {
+    cursor: pointer;
+}
+
 a {
     font-family: 'Work Sans', sans-serif;
 }
@@ -614,7 +619,7 @@ header li:last-child:hover {
 .intro .right {
     width: 50%;
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
 }
 
 
