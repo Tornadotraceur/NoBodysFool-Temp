@@ -622,7 +622,7 @@ header li:last-child:hover {
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
 }
 
-@media (max-width:1600px) {
+@media (min-width:1600px) {
     .intro .right {
         grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
         padding-top: 40px;
